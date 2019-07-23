@@ -1,6 +1,37 @@
-.caja{
-  color:blue;
-  background:grey;
-  font-size;10px;
-  psdding:10px;
+
+
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+nav{
+  display: flex;
+  /* this switches the organization from vertical to horizontal */
+  background-color: #7ACC2D;
+  padding:10px;
+  color: white;
+  justify-content: space-between;
+  /* this separetes the images and the options */
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  /* organize horizontal */
+}
+nav li{
+  padding-left: 20px;
+  list-style: none;
+  /* esto remueve los bullets */
+}
+/* es importante evitar cosas que se repiten */
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+/* esto es una propiedad */
+nav li a:hover{
+  color: white;
 }
