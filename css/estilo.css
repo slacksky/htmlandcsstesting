@@ -38,5 +38,18 @@ nav li a:hover{
 /* Main section */
 
 .main_section{
-  padding: 20%;
+  padding: 15%;
+  text-align: center;
+}
+/* Product section */
+.products{
+  background-image: url("../images/background.jpg");
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  /* ejemplo doble atributo */
+}
+/* Make a curve backgruond */
+
+
 }
