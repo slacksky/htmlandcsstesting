@@ -35,3 +35,8 @@ nav li a{
 nav li a:hover{
   color: white;
 }
+/* Main section */
+
+.main_section{
+  padding: 20%;
+}
